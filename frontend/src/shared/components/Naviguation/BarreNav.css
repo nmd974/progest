@@ -1,0 +1,36 @@
+ .main_barre_nav{
+    background-color: white;
+    display: flex;
+    border: 10px solid rgb(4,4,4);
+    justify-content: space-around;
+    width: 100%;
+    position: fixed;
+ }
+
+ .main_ul{
+     display: flex;
+     flex-direction: row;
+
+
+ }
+
+ .nav__link{
+     text-decoration: none;
+     color: rgb(195, 86, 43);
+ }
+ .main_li{
+     margin-left: 20px;
+     list-style: none;
+
+ }
+
+ @media screen and (min-width: 360px) and (max-width: 1050px) {
+    .main_barre_nav{
+        background-color: white;
+        display: flex;
+        border: 10px solid rgb(4,4,4);
+        justify-content: center;
+        width: 100%;
+        position: fixed;
+     }
+ }

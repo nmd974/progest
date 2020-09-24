@@ -1,0 +1,133 @@
+.block__content{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid white;
+    width: 999px;
+    margin-top: 33px;
+}
+
+.block__entete,
+.block__name,
+.block__description,
+.block__date,
+.block__type,
+.block__button{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    border: 1px solid grey;
+}
+
+.block__entete{
+    align-items: center;
+    justify-content: space-between;
+    font-size: 3.5rem;
+    margin-top: 150px;
+}
+
+.block__input__name{
+    margin-left: 10px;
+    height: 100px;
+    width: 666px;
+}
+
+.block__description,
+.block__name{
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.block__label__name,
+.block__label__description{
+    width: 333px;
+    text-align: center;
+}
+
+.block__date__start,
+.block__date__end{
+    padding: 50px;
+    margin-left: 50px;
+    text-align: center;
+}
+
+.block__button{
+    align-content: center;
+    justify-content: space-evenly;
+}
+
+.block__button__entete{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.show__button{
+    margin-left: 50px;
+}
+
+
+@media screen and (min-width: 360px) and (max-width: 1050px) {
+    .block__content{
+        display: flex;
+        flex-direction: column;
+
+        width: 100%;
+        margin-top: 33px;
+    }
+    
+ 
+    .block__name,
+    .block__description,
+    .block__type,
+    .block__button{
+        display: flex;
+        flex-direction: row;
+        margin: 10px;
+
+    }
+
+
+    .block__date{
+        display: flex;
+        flex-direction: column;
+
+    }
+    
+    .block__entete{
+        align-items: center;
+        justify-content: space-between;
+        font-size:1.3rem;
+        margin-top: 100px;
+    }
+    
+    .block__input__name{
+        margin-left: 10px;
+        height: 100px;
+        width: 230px;
+    }
+    
+    .block__description,
+    .block__name{
+        align-items: center;
+        justify-content: center;
+        
+    }
+    
+    .block__label__name,
+    .block__label__description{
+        width: 100px;
+        text-align: center;
+    }
+    
+    .block__date__start,
+    .block__date__end{
+        padding: 5px;
+
+    }
+    
+    .block__button{
+        align-content: center;
+        justify-content: space-evenly;
+    }
+}

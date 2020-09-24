@@ -1,0 +1,135 @@
+.block__card{
+    border: 1px solid #eee;
+    background-color: rgb(146, 141, 141);
+    height: 222px;
+    width: auto;
+    margin-top: 33px;
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+
+.project_name,
+.block__indicators,
+.block__buttons{
+    border: 1px solid #eee;
+    background-color: rgb(195, 86, 43);
+    height: 222px;
+}
+
+.project_name{
+    width: 500px;
+}
+
+
+.block__indicators{
+    display: flex;
+    flex-direction: column;
+    width: 333px;
+    align-items: center;
+    justify-content: center;
+}
+
+.block__indicators__time{
+    display: flex;
+    align-items: center;
+    margin: 30px 20px;
+}
+
+.block__indicators__pourcentage{
+    display: flex;
+    align-items: center;
+    margin: 30px 20px;
+}
+
+.time_icon{
+    margin-right: 32px;
+    margin-left: 12px;
+}
+
+.working_icon{
+    margin-right: 32px;
+    margin-left: 12px;
+}
+
+
+
+.block__buttons{
+    width: 166px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.boutonAdd{
+
+    margin-top: 150px;
+}
+
+@media screen and (min-width: 360px) and (max-width: 1050px) {
+    .block__card{
+        border: 1px solid #eee;
+        background-color: rgb(146, 141, 141);
+        height: auto;
+        width: 100%;
+        margin-top: 33px;
+        display: block;
+        
+        flex-direction: column;
+    }
+    
+    
+    .project_name,
+    .block__indicators,
+    .block__buttons{
+        border: 1px solid #eee;
+        background-color: rgb(195, 86, 43);
+
+    }
+    
+    .project_name{
+        width: 300px;
+        height: auto;
+    }
+    
+    .block__indicators{
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .block__indicators__time{
+        display: flex;
+        align-items: center;
+        margin: 30px 20px;
+    }
+    
+    .block__indicators__pourcentage{
+        display: flex;
+        align-items: center;
+        margin: 30px 20px;
+    }
+    
+    .time_icon{
+        margin-right: 32px;
+        margin-left: 12px;
+    }
+    
+    .working_icon{
+        margin-right: 32px;
+        margin-left: 12px;
+    }
+    
+    
+    
+    .block__buttons{
+        width: 300px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+}

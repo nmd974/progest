@@ -1,0 +1,57 @@
+.button {
+    font: inherit;
+    padding: 0.5rem 1.5rem;
+    border: 1px solid rgb(124, 124, 124);
+    border-radius: 4px;
+    background: rgb(124, 124, 124);
+    color: white;
+    cursor: pointer;
+    margin-right: 1rem;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  .button:focus {
+    outline: none;
+  }
+  
+  .button:hover,
+  .button:active {
+    background: rgb(124, 124, 124);
+    border-color: rgb(124, 124, 124);
+  }
+  
+  .button--approved {
+    background: rgb(124, 124, 124);
+    border-color: rgb(124, 124, 124);
+
+  }
+  
+  .button--approved:hover,
+  .button--approved:active {
+    background: #297915;
+    border-color: #297915;
+
+  }
+  
+  .button--disapproved {
+    background: rgb(124, 124, 124);
+    border-color: rgb(124, 124, 124);
+
+  }
+  
+  .button--disapproved:hover,
+  .button--disapproved:active {
+    background: #d12424;
+    border-color: #d12424;
+  }
+  
+  .button:disabled,
+  .button:hover:disabled,
+  .button:active:disabled {
+    background: rgb(3, 3, 3);
+    color: rgb(222, 222, 222);
+    border-color: rgb(222, 222, 222);
+    cursor: not-allowed;
+    border: inset 5px rgb(124, 124, 124);
+  }

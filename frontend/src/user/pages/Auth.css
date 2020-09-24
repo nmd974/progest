@@ -1,0 +1,31 @@
+.block_signup{
+    color: white;
+    border: 1px solid white;
+    margin-top: 150px;
+    margin-left: 580px;
+    margin-right: 60px;
+    width: 300px;
+}
+
+.block__form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px;
+}
+
+.block__input{
+    margin-bottom: 10px;
+}
+
+@media screen and (min-width: 360px) and (max-width: 1050px) {
+
+    .block_signup{
+        color: white;
+        border: 1px solid white;
+        margin-top: 150px;
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+    }
+}
